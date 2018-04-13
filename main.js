@@ -39,7 +39,7 @@ bot.registry.registerCommandsIn(path.join(__dirname + "/commands"));
 
 bot.on('ready', () => {
     console.log('Up and running!');
-    bot.user.setActivity('With New Ideas');
+    bot.user.setActivity('With Charlie ;)');
 });
 
 // Makes the bot log in to its account
